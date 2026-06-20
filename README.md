@@ -108,37 +108,6 @@ Used for crowd violence and aggressive behavior detection.
 
 ---
 
-## Methodology
-
-### Data Collection
-Video datasets containing normal and abnormal activities are collected from publicly available sources.
-
-### Data Preprocessing
-- Frame extraction from videos
-- Image resizing
-- Data normalization
-- Data augmentation
-- Train-test split
-
-### Object Detection
-YOLOv7 is used to detect humans and relevant objects from surveillance footage.
-
-### Feature Extraction
-CNN layers extract spatial features from individual video frames.
-
-### Temporal Analysis
-LSTM networks capture temporal dependencies and movement patterns across video sequences.
-
-### Activity Classification
-The extracted features are classified into:
-
-- Normal Activity
-- Suspicious Activity
-
-### Alert Generation
-When suspicious behavior is detected, alerts are generated and sent to authorized personnel.
-
----
 
 ## Project Workflow
 
@@ -165,65 +134,6 @@ Activity Classification
       │
       ▼
 Alert Generation
-```
-
----
-
-## Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/SurakshaAI.git
-cd SurakshaAI
-```
-
-### Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### Activate Environment
-
-#### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-#### Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Running the Project
-
-### Training
-
-```bash
-python train.py
-```
-
-### Testing
-
-```bash
-python test.py
-```
-
-### Real-Time Detection
-
-```bash
-python detect.py
 ```
 
 ---
@@ -286,39 +196,6 @@ Patent Application Published under the Indian Patent Office.
 
 ---
 
-## Contributors
 
-- Rohini Koli
-- Project Team Members
-
----
-
-## Acknowledgements
-
-- UCF Crime Dataset
-- Avenue Dataset
-- Violent-Flows Dataset
-- OpenCV Community
-- PyTorch Community
-- TensorFlow Community
-- YOLO Research Team
-
----
-
-## License
-
-This project is developed for academic, research, and educational purposes.
-
----
-
-## Contact
-
-For research collaborations, project discussions, or academic inquiries:
-
-**Rohini Koli**
-
-Artificial Intelligence and Data Science
-
-Email: your-email@example.com
 
 GitHub: https://github.com/yourusername
